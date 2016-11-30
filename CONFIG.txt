@@ -1,0 +1,23 @@
+# In this configuration file you should use
+# C syntax. Thus booleans are either `true` or `false`
+# but not `True` or `False`.
+
+# Enable logging
+USER_OPTION_LOG_ON = true
+
+# giving a log file speeds up the runtime
+# as the log is not streamed to std::cout.
+# The given file will be discarded if it
+# exists already.
+USER_OPTION_LOG_FILE = ""
+
+# Statistics collection enables a more detailed report at the
+# end of the program
+USER_OPTION_COLLECT_STATISTICS = true
+
+# For every kernel launch the devices' limits will be checked,
+# e.g. max block size, max grid size, max shared memory, etc.
+USER_OPTION_CHECK_DEVICE_LIMITS = false
+
+# print a report function at the end of the program execution
+USER_OPTION_MAKE_REPORT = true

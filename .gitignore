@@ -1,0 +1,21 @@
+# DIRECTORIES
+sofire/
+bin/
+sandbox/
+build/
+tmp/
+results/
+test_trans/
+
+# FILE TYPES
+*.o
+*.swp
+*.ptx
+*.bc
+*.ll
+
+# CERTAIN FILES
+.ipynb_checkpoints
+.ycm_extra_conf.pyc
+.ycm_extra_conf.py
+bsp_analysis/dbs/

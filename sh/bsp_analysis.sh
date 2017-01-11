@@ -39,7 +39,7 @@ cd ${SCRIPTPATH}
 
 # Running the pass
 # -debug-only=PROMOTER
-POLLY_LIB="/home/cklein/build/llvm_git/lib/LLVMPolly.so"
+POLLY_LIB="$HOME/build/llvm_git/lib/LLVMPolly.so"
 TESTPATH_CANONIC_LL="${TESTPATH_LL%.*}.canonic.ll"
 if [ "$pollyLoaded" = true ]; then
 	opt -S -load $LWPASSPATH -lwpass $TESTPATH_LL > $TESTPATH_WRAPPED 
